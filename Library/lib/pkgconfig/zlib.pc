@@ -1,0 +1,13 @@
+prefix=C:/Users/bansa/OneDrive/Desktop/Major project/SENSORLIVE/Library
+exec_prefix=C:/Users/bansa/OneDrive/Desktop/Major project/SENSORLIVE/Library
+libdir=C:/Users/bansa/OneDrive/Desktop/Major project/SENSORLIVE/Library/lib
+sharedlibdir=C:/Users/bansa/OneDrive/Desktop/Major project/SENSORLIVE/Library/lib
+includedir=C:/Users/bansa/OneDrive/Desktop/Major project/SENSORLIVE/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
